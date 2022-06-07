@@ -18,10 +18,10 @@ function multiply(a, b){
 ```
 
 ### Projects
-CV
+* CV
 
 ### English
-A1
+* A1
 
 ## Contact
 * Russia, Moscow
