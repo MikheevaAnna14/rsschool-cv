@@ -21,6 +21,6 @@ function multiply(a, b){
 A1
 
 ## Contact
-*Russia, Moscow
-*Email: Miheeva@rambler.ru
-*Discord: AnnaM(@MikheevaAnna14)
+* Russia, Moscow
+* Email: Miheeva@rambler.ru
+* Discord: AnnaM(@MikheevaAnna14)
