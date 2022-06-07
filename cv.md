@@ -1,21 +1,26 @@
-##### Mikheeva Anna
+# Mikheeva Anna
 ---
-## Novice web developer
+### Novice web developer
 ---
 
-### About me
+## About me
 I am Anna Mikheeva. For 10+ years I worked as a financier at an industrial enterprise. After a long break from work, I decided to learn a new profession: a web developer.
 
-### Education
+## Education
 * 1995-1999: Studied economics and finances.
 * 2022: I have began studying at RSS-school.
 
-### Code
+## Code
+```
 function multiply(a, b){
  return a * b
 }
+```
 
-### Contact
-Russia, Moscow
-Email: Miheeva@rambler.ru
-Discord: AnnaM(@MikheevaAnna14)
+### English
+A1
+
+## Contact
+*Russia, Moscow
+*Email: Miheeva@rambler.ru
+*Discord: AnnaM(@MikheevaAnna14)
