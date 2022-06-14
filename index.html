@@ -2,11 +2,143 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mikheeva Anna">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
 </head>
-<body>
-  <h1>Hello,world!</h1>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <img class="header__avatar" src="./images/avatar.jpg" alt="avatar">
+      <div class="header__info">
+        <h1 class="header__title">Mikheeva Anna</h1>
+        <p class="header__subtitle">Novice web developer</p>
+        <nav class="header__nav">
+          <ul class="header__nav-links">
+            <li class="header__links">
+              <a class="header__link" href="#about">
+                <p>About me</p>
+              </a>
+            </li>
+            <li>
+              <a class="header__link" href="#education">
+                <p>Education</p>
+              </a>
+            </li>
+            <li>
+              <a class="header__link" href="#code">
+                <p>Code</p>
+              </a>
+            </li>
+            <li>
+              <a class="header__link" href="#english">
+                <p>English</p>
+              </a>
+            </li>
+            <li>
+              <a class="header__link" href="#contacts">
+                <p>Contacts</p>
+              </a>
+            </li>
+            <li>
+              <a class="header__link" href="#projects">
+                <p>Projects</p>
+              </a>
+            </li>
+            <li>
+              <a class="header__link" href="#skills">
+                <p>Skills</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  
+    <main class="content">
+      <div class="column">
+        <section class="description">
+          <h2 class="subtitle" id="contacts">Contacts</h2>
+          <hr>
+          <ul class="contact">
+            <li class="contact__element">Russia, Moscow</li>
+            <li class="contact__element">Email: Miheeva@rambler.ru</li>
+            <li class="contact__element">Discord: AnnaM(@MikheevaAnna14)</li>
+          </ul>
+        </section>
+        <section class="description">
+          <h2 class="subtitle" id="projects">Projects</h2>
+          <hr>
+          <ul class="contact">
+            <li class="contact__element">
+              <a class="contact__element-link" href="https://MikheevaAnna14.github.io/rsschool-cv/">
+                <p>CV</p>
+              </a>
+            </li>
+            <li class="contact__element">
+              <a class="contact__element-link" href="https://mikheevaanna14.github.io/russian-travel/">
+                <p>Путешествие по России</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="description">
+          <h2 class="subtitle" id="skills">Skills</h2>
+          <hr>
+          <ul class="skills">
+            <li class="skills__element">HTML</li>
+            <li class="skills__element">CSS</li>
+            <li class="skills__element">JS</li>
+            <li class="skills__element">REACT</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="column column_large">
+        <section class="description">
+          <h2 class="subtitle" id="about">About me</h2>
+          <hr>
+          <p>I am Anna Mikheeva. For 10+ years I worked as a financier at an industrial enterprise. 
+            After a long break from work, I decided to learn a new profession: a web developer.</p>
+        </section>
+        <section class="description">
+          <h2 class="subtitle" id="education">Education</h2>
+          <hr>
+          <ul class="list">
+            <li class="list__element">1995-1999: Studied economics and finances.</li>
+            <li class="list__element">2022: I have began studying at RSS-school.</li>
+          </ul>
+        </section>
+        <section class="description">
+          <h2 class="subtitle" id="code">Code</h2>
+          <hr>
+          <pre class="code">
+            function multiply(a, b){
+              return a * b
+             }
+          </pre>
+        </section>
+        <section class="description">
+          <h2 class="subtitle" id="english">English</h2>
+          <hr>
+          <ul class="contact">
+            <li class="contact__element">A1</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  
+    <footer class="footer">
+      <a class="footer__github" href="https://MikheevaAnna14.github.io/rsschool-cv/">
+        <img class="footer__github-icon" src="./images/GitHub-Mark-32px.png" alt="icon GitHub">
+        <p class="footer__github-link">Visit my GitHub</p>
+      </a>
+      <p>&copy;2022</p>
+      <a class="footer__rsschool" href="https://rs.school/js/">
+        <img class="footer__rsschool-icon" src="./images/rs_school_js.svg" alt="icon rs-school">
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
